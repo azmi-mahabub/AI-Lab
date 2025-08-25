@@ -7,7 +7,7 @@ edges = {
     'M': {'JG': 2, 'KB': 4},
     'JG': {'UAP': 4},
     'KB': {'Pan': 2},
-    'Pan': {'UAP': 1},
+    'Pan': {'UAP': 2},
     'CMH': {'K': 5},
     'K': {'AG': 5},
     'AG': {'UAP': 6}
@@ -44,3 +44,4 @@ while opened:
             closed[neighbor] = current
             if neighbor not in opened:
                 opened.append(neighbor)
+
